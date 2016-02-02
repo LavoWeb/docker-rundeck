@@ -16,12 +16,12 @@ function run_ {
     mkdir -p volume/lib
     mkdir -p volume/log
 
-	docker run --name $APP -p 4440:4440 \
+	docker run --name $APP -p 4443:4443 \
         -v $CD/volume/etc:/etc/rundeck \
         -v $CD/volume/rundeck:/var/rundeck \
         -v $CD/volume/lib:/var/lib/rundeck \
         -v $CD/volume/log:/var/log/rundeck \
-        -t $APP;
+        -i -t $APP;
 }
 
 function restart_ {
