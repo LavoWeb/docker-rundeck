@@ -50,10 +50,15 @@ rundeck:
         - ./volume/log:/var/log/rundeck
 
 ```
+
 * one command ;)
+
 ```
-docker-compose up remijouannet/docker-rundeck
+git clone https://github.com/remijouannet/docker-rundeck.git
+cd docker-rundeck
+docker-compose up
 ```
+
 after that juste access the web ui with the following link :
 * https://localhost:4443/
 * login per default (if the variable was not change) : admin / admin
