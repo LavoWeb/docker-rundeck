@@ -50,7 +50,7 @@ rundeck:
         - ./volume/log:/var/log/rundeck
 
 ```
-*
+* on command ;)
 ```
 docker-compose up remijouannet/docker-rundeck
 ```
