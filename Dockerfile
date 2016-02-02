@@ -4,8 +4,8 @@ FROM debian:jessie
 
 MAINTAINER Rémi Jouannet "remijouannet@gmail.com"
 
-ENV http_proxy http://proxy.neurones.fr:8080/
-ENV https_proxy http://proxy.neurones.fr:8080/
+#ENV http_proxy http://127.0.0.1:8080/
+#ENV https_proxy http://127.0.0.1:8080/
 
 RUN ping -c2 ftp.debian.org
 RUN apt-get update
