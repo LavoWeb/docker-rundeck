@@ -51,7 +51,7 @@ rundeck:
 
 ```
 
-* one command ;)
+* three commands ;)
 
 ```
 git clone https://github.com/remijouannet/docker-rundeck.git
