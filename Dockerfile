@@ -10,7 +10,7 @@ MAINTAINER Rémi Jouannet "remijouannet@gmail.com"
 RUN ping -c2 ftp.debian.org
 RUN apt-get update
 RUN apt-get install -y bash ca-certificates openjdk-7-jre-headless
-RUN apt-get install -y bash openssh-client pwgen curl git
+RUN apt-get install -y bash openssh-client pwgen curl git mysql-client
 
 ADD http://dl.bintray.com/rundeck/rundeck-deb/rundeck-2.6.2-1-GA.deb /tmp/rundeck.deb
 COPY . /app
